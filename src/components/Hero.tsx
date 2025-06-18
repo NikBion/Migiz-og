@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Wallet } from "lucide-react";
+import { ArrowRight, ShoppingBag } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="flex items-center justify-center mb-8">
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 bg-black rounded-lg flex items-center justify-center">
-                <Wallet className="w-6 h-6 text-white" />
+                <ShoppingBag className="w-6 h-6 text-white" />
               </div>
               <span className="text-2xl font-bold text-gray-900">MIGIZ</span>
             </div>
@@ -19,15 +19,15 @@ const Hero = () => {
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-light text-gray-900 mb-6 leading-tight">
-            Crypto Shopping
+            Smart Shopping
             <br />
-            <span className="font-medium">Reimagined</span>
+            <span className="font-medium">Rewards</span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Shop from premium brands using cryptocurrency. 
-            Earn rewards and cashback on every purchase.
+            Shop from premium brands and earn instant cashback. 
+            Get exclusive vouchers and rewards on every purchase.
           </p>
 
           {/* Status */}

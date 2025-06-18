@@ -9,8 +9,8 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-400 mb-8 max-w-md mx-auto">
-            The future of shopping with cryptocurrency. 
-            Secure, fast, and rewarding.
+            The smart way to shop online. 
+            Earn cashback, collect vouchers, and get rewarded.
           </p>
           
           <div className="border-t border-gray-800 pt-8">

@@ -1,28 +1,28 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Wallet, Shield, Zap, Gift } from "lucide-react";
+import { ShoppingCart, TicketPercent, Ticket, ShoppingBag } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: Wallet,
-      title: "Crypto Payments",
-      description: "Pay with Bitcoin, Ethereum, and other major cryptocurrencies"
+      icon: ShoppingCart,
+      title: "Smart Shopping",
+      description: "Browse and shop from 1000+ premium brands worldwide"
     },
     {
-      icon: Shield,
-      title: "Secure Transactions",
-      description: "Bank-grade security with blockchain verification"
+      icon: TicketPercent,
+      title: "Instant Cashback",
+      description: "Earn up to 40% cashback on every purchase automatically"
     },
     {
-      icon: Zap,
-      title: "Instant Rewards",
-      description: "Earn up to 40% cashback on every purchase"
+      icon: Ticket,
+      title: "Exclusive Vouchers",
+      description: "Access special discount vouchers and member-only deals"
     },
     {
-      icon: Gift,
-      title: "Premium Brands",
-      description: "Access to 100+ top-tier brands and exclusive deals"
+      icon: ShoppingBag,
+      title: "Reward Points",
+      description: "Collect points with every purchase and redeem for rewards"
     }
   ];
 
@@ -34,7 +34,7 @@ const Features = () => {
             Why Choose Migiz
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Experience the future of online shopping with cryptocurrency integration
+            Experience the future of smart shopping with instant rewards and cashback
           </p>
         </div>
 
