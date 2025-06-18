@@ -31,7 +31,7 @@ const Hero = () => {
           </p>
 
           {/* Status */}
-          <div className="inline-flex items-center space-x-3 bg-gray-900 text-white px-6 py-3 rounded-full mb-8">
+          <div className="inline-flex items-center space-x-3 bg-gray-900 text-white px-6 py-3 rounded-full mb-12">
             <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
             <span className="text-sm font-medium">Coming Soon</span>
           </div>
