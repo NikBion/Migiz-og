@@ -1,6 +1,5 @@
 
-import { Button } from "@/components/ui/button";
-import { ArrowRight, ShoppingBag, Zap, Star } from "lucide-react";
+import { ArrowRight, Star } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -13,24 +12,20 @@ const Hero = () => {
       </div>
 
       <div className="container mx-auto text-center max-w-6xl relative z-10">
-        <div className="space-y-12">
-          {/* Logo/Brand with enhanced design */}
+        <div className="space-y-16">
+          {/* Logo with the new design */}
           <div className="flex items-center justify-center">
-            <div className="flex items-center space-x-6 group">
-              <div className="relative">
-                <div className="w-20 h-20 bg-gradient-to-br from-gray-900 to-gray-700 rounded-2xl flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
-                  <ShoppingBag className="w-10 h-10 text-white" />
-                </div>
-                <div className="absolute -top-2 -right-2 w-6 h-6 bg-orange-400 rounded-full flex items-center justify-center animate-bounce">
-                  <Zap className="w-3 h-3 text-white" />
-                </div>
-              </div>
-              <span className="text-4xl font-bold text-gray-900 tracking-tight">MIGIZ</span>
+            <div className="group">
+              <img 
+                src="/lovable-uploads/aefbe672-c7ea-4a3d-b8a1-b809ea954c7f.png" 
+                alt="Migiz Logo" 
+                className="w-64 h-auto group-hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
+              />
             </div>
           </div>
 
           {/* Main heading with enhanced typography */}
-          <div className="space-y-8">
+          <div className="space-y-10">
             <div className="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-sm text-gray-700 px-8 py-4 rounded-full shadow-lg border border-gray-200/50">
               <Star className="w-5 h-5 text-orange-500" />
               <span className="text-sm font-semibold uppercase tracking-widest">The Future of Shopping</span>
@@ -39,7 +34,7 @@ const Hero = () => {
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-light text-gray-900 leading-tight">
               Smart Shopping
               <br />
-              <span className="font-bold bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 bg-clip-text text-transparent">
+              <span className="font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Rewards
               </span>
             </h1>
@@ -55,36 +50,21 @@ const Hero = () => {
 
           {/* Enhanced Status indicator */}
           <div className="flex justify-center">
-            <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-gray-900 to-gray-800 text-white px-10 py-5 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group">
+            <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white px-12 py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group hover:scale-105">
               <div className="relative">
-                <div className="w-3 h-3 bg-orange-400 rounded-full animate-pulse"></div>
-                <div className="absolute inset-0 w-3 h-3 bg-orange-400 rounded-full animate-ping"></div>
+                <div className="w-4 h-4 bg-green-400 rounded-full animate-pulse"></div>
+                <div className="absolute inset-0 w-4 h-4 bg-green-400 rounded-full animate-ping"></div>
               </div>
-              <span className="text-base font-semibold tracking-wide">Coming Soon</span>
+              <span className="text-lg font-semibold tracking-wide">Coming Soon</span>
               <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-                <Zap className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" />
               </div>
             </div>
           </div>
 
-          {/* Enhanced CTA */}
-          <div className="pt-8">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-gray-900 to-gray-800 hover:from-gray-800 hover:to-gray-700 text-white px-16 py-8 text-xl rounded-full group transition-all duration-500 shadow-2xl hover:shadow-3xl transform hover:-translate-y-2 hover:scale-105"
-            >
-              <span className="flex items-center space-x-4">
-                <span>Get Early Access</span>
-                <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:bg-white/30 transition-colors duration-300">
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </div>
-              </span>
-            </Button>
-          </div>
-
           {/* Additional trust indicators */}
-          <div className="pt-16">
-            <div className="flex items-center justify-center space-x-12 opacity-60">
+          <div className="pt-12">
+            <div className="flex items-center justify-center space-x-12 opacity-70">
               <div className="text-center">
                 <div className="text-3xl font-bold text-gray-900">1000+</div>
                 <div className="text-sm text-gray-600 font-medium">Premium Brands</div>
