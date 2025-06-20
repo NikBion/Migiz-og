@@ -17,9 +17,9 @@ const Hero = () => {
           <div className="flex items-center justify-center">
             <div className="group">
               <img 
-                src="/lovable-uploads/aefbe672-c7ea-4a3d-b8a1-b809ea954c7f.png" 
+                src="/lovable-uploads/521fe49c-9d6f-4ed7-a050-83dabaef5876.png" 
                 alt="Migiz Logo" 
-                className="w-64 h-auto group-hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
+                className="w-72 h-auto group-hover:scale-105 transition-transform duration-300 drop-shadow-xl"
               />
             </div>
           </div>
@@ -46,20 +46,6 @@ const Hero = () => {
               <br />
               Get exclusive vouchers and rewards on every purchase.
             </p>
-          </div>
-
-          {/* Enhanced Status indicator */}
-          <div className="flex justify-center">
-            <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-teal-600 to-blue-600 text-white px-12 py-6 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 group hover:scale-105">
-              <div className="relative">
-                <div className="w-4 h-4 bg-green-400 rounded-full animate-pulse"></div>
-                <div className="absolute inset-0 w-4 h-4 bg-green-400 rounded-full animate-ping"></div>
-              </div>
-              <span className="text-lg font-semibold tracking-wide">Coming Soon</span>
-              <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center group-hover:rotate-12 transition-transform duration-300">
-                <ArrowRight className="w-4 h-4" />
-              </div>
-            </div>
           </div>
 
           {/* Additional trust indicators */}
