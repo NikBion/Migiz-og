@@ -47,26 +47,6 @@ const Hero = () => {
               Get exclusive vouchers and rewards on every purchase.
             </p>
           </div>
-
-          {/* Additional trust indicators */}
-          <div className="pt-12">
-            <div className="flex items-center justify-center space-x-12 opacity-70">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900">1000+</div>
-                <div className="text-sm text-gray-600 font-medium">Premium Brands</div>
-              </div>
-              <div className="w-px h-12 bg-gray-300"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900">40%</div>
-                <div className="text-sm text-gray-600 font-medium">Max Cashback</div>
-              </div>
-              <div className="w-px h-12 bg-gray-300"></div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900">24/7</div>
-                <div className="text-sm text-gray-600 font-medium">Support</div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
