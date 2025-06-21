@@ -1,5 +1,5 @@
 
-import { ShoppingBag, Heart } from "lucide-react";
+import { ShoppingBag, Heart, DollarSign } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -24,7 +24,7 @@ const Footer = () => {
           <p className="text-gray-300 text-xl mb-12 max-w-2xl mx-auto leading-relaxed">
             The smart way to shop online. 
             <br />
-            <span className="text-white font-medium">Earn cashback, collect vouchers, and get rewarded.</span>
+            <span className="text-white font-medium">Buy Vouchers/giftcards & get reward on every purchase.</span>
           </p>
 
           {/* Social proof or additional info */}
@@ -40,9 +40,15 @@ const Footer = () => {
                 <div className="text-sm">Cashback</div>
               </div>
               <div className="w-px h-8 bg-gray-600"></div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-white">24/7</div>
-                <div className="text-sm">Support</div>
+              <div className="text-center flex flex-col items-center">
+                <div className="flex items-center space-x-1 mb-1">
+                  <DollarSign className="w-4 h-4 text-white" />
+                  <span className="text-lg font-bold text-white">SGD</span>
+                  <span className="text-white">&</span>
+                  <DollarSign className="w-4 h-4 text-white" />
+                  <span className="text-lg font-bold text-white">USD</span>
+                </div>
+                <div className="text-sm">Earn and Buy</div>
               </div>
             </div>
           </div>

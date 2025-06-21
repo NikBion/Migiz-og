@@ -35,7 +35,7 @@ const Hero = () => {
               Smart Shopping
               <br />
               <span className="font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Rewards
+                With Rewards
               </span>
             </h1>
 
@@ -44,7 +44,7 @@ const Hero = () => {
               Shop from <span className="font-semibold text-gray-800">premium brands</span> and earn 
               <span className="font-semibold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent"> instant cashback</span>.
               <br />
-              Get exclusive vouchers and rewards on every purchase.
+              Buy Vouchers/giftcards & get reward on every purchase.
             </p>
           </div>
         </div>

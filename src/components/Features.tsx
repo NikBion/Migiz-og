@@ -20,8 +20,8 @@ const Features = () => {
     },
     {
       icon: Ticket,
-      title: "Exclusive Vouchers",
-      description: "Access special discount vouchers and member-only deals",
+      title: "Buy Vouchers/Giftcards",
+      description: "Purchase gift vouchers and special discount cards with rewards",
       gradient: "from-orange-500 to-red-600",
       bgGradient: "from-orange-50 to-red-50"
     },
