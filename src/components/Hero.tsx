@@ -13,14 +13,16 @@ const Hero = () => {
 
       <div className="container mx-auto text-center max-w-7xl relative z-10">
         <div className="space-y-12">
-          {/* Logo text with gradient - adjusted size and margins */}
-          <div className="flex items-center justify-center py-2">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-500 bg-clip-text text-transparent drop-shadow-2xl leading-none">
-              Migiz
-            </h1>
+          {/* Logo image with proper sizing */}
+          <div className="flex items-center justify-center py-4">
+            <img 
+              src="/lovable-uploads/ec796f2e-d5ed-4aea-ae72-4fd61118c53b.png" 
+              alt="Migiz Logo" 
+              className="h-24 md:h-32 lg:h-40 w-auto object-contain drop-shadow-2xl"
+            />
           </div>
 
-          {/* Main heading with enhanced typography - reduced font sizes */}
+          {/* Main heading with enhanced typography */}
           <div className="space-y-8">
             <div className="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-sm text-gray-700 px-8 py-4 rounded-full shadow-lg border border-gray-200/50">
               <Star className="w-5 h-5 text-orange-500" />
@@ -35,7 +37,7 @@ const Hero = () => {
               </span>
             </h2>
 
-            {/* Subtitle with better styling - reduced font sizes */}
+            {/* Subtitle with better styling */}
             <p className="text-xl md:text-2xl lg:text-3xl text-gray-600 max-w-5xl mx-auto leading-relaxed font-light">
               Comprehensive <span className="font-bold text-gray-800">B2B ecommerce solutions</span> for your business growth.
               <br />
@@ -43,7 +45,7 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* Trust indicators - updated for B2B focus */}
+          {/* Trust indicators */}
           <div className="flex items-center justify-center space-x-12 text-gray-600 pb-16">
             <div className="flex items-center space-x-3">
               <Shield className="w-7 h-7 text-blue-500" />
