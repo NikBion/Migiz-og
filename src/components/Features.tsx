@@ -1,36 +1,50 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { ShoppingCart, TicketPercent, Ticket, ShoppingBag, Sparkles } from "lucide-react";
+import { DollarSign, Code, Palette, Gift, Star, Users, Sparkles } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: ShoppingCart,
-      title: "Smart Shopping",
-      description: "Browse and shop from 1000+ premium brands worldwide",
-      gradient: "from-blue-500 to-purple-600",
-      bgGradient: "from-blue-50 to-purple-50"
-    },
-    {
-      icon: TicketPercent,
-      title: "Instant Cashback",
-      description: "Earn up to 40% cashback on every purchase automatically",
+      icon: DollarSign,
+      title: "Cashback Solution",
+      description: "Comprehensive cashback system for your customers with automated rewards",
       gradient: "from-green-500 to-teal-600",
       bgGradient: "from-green-50 to-teal-50"
     },
     {
-      icon: Ticket,
-      title: "Buy Vouchers/Giftcards",
-      description: "Purchase gift vouchers and special discount cards with rewards",
+      icon: Code,
+      title: "App Development Solution",
+      description: "Custom mobile and web application development for your business needs",
+      gradient: "from-blue-500 to-purple-600",
+      bgGradient: "from-blue-50 to-purple-50"
+    },
+    {
+      icon: Palette,
+      title: "Whitelabeling Solution",
+      description: "Complete white-label platform to launch your branded ecommerce solution",
+      gradient: "from-purple-500 to-pink-600",
+      bgGradient: "from-purple-50 to-pink-50"
+    },
+    {
+      icon: Gift,
+      title: "Voucher Solutions",
+      description: "Advanced voucher and gift card management system for your business",
       gradient: "from-orange-500 to-red-600",
       bgGradient: "from-orange-50 to-red-50"
     },
     {
-      icon: ShoppingBag,
-      title: "Reward Points",
-      description: "Collect points with every purchase and redeem for rewards",
-      gradient: "from-purple-500 to-pink-600",
-      bgGradient: "from-purple-50 to-pink-50"
+      icon: Star,
+      title: "Reward Point Mechanism",
+      description: "Sophisticated loyalty program with customizable reward point systems",
+      gradient: "from-yellow-500 to-orange-600",
+      bgGradient: "from-yellow-50 to-orange-50"
+    },
+    {
+      icon: Users,
+      title: "Affiliate Program",
+      description: "Complete affiliate marketing platform with tracking and commission management",
+      gradient: "from-teal-500 to-blue-600",
+      bgGradient: "from-teal-50 to-blue-50"
     }
   ];
 
@@ -46,18 +60,18 @@ const Features = () => {
         <div className="text-center mb-20">
           <div className="inline-flex items-center space-x-2 bg-gray-100 px-6 py-3 rounded-full mb-6">
             <Sparkles className="w-5 h-5 text-gray-600" />
-            <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Features</span>
+            <span className="text-sm font-semibold text-gray-700 uppercase tracking-wide">Solutions</span>
           </div>
           <h2 className="text-5xl md:text-6xl font-light text-gray-900 mb-6">
-            Why Choose 
-            <span className="font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent"> Migiz</span>
+            Migiz 
+            <span className="font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent"> Solutions</span>
           </h2>
           <p className="text-2xl text-gray-600 max-w-3xl mx-auto font-light leading-relaxed">
-            Experience the future of smart shopping with instant rewards and cashback
+            Complete B2B ecommerce solutions to power your business growth and success
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <Card 
               key={feature.title}
@@ -86,7 +100,7 @@ const Features = () => {
         {/* Additional call-to-action */}
         <div className="text-center mt-20">
           <div className="inline-flex items-center space-x-4 bg-gray-50 hover:bg-gray-100 px-8 py-4 rounded-full transition-colors duration-300 border border-gray-200">
-            <span className="text-gray-700 font-medium">Ready to get started?</span>
+            <span className="text-gray-700 font-medium">Ready to grow your business?</span>
             <div className="w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
           </div>
         </div>

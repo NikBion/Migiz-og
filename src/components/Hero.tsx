@@ -28,23 +28,22 @@ const Hero = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-medium text-gray-900 leading-tight">
-              Smart Shopping
+              One Stop Shop For
               <br />
               <span className="font-bold bg-gradient-to-r from-teal-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
-                With Rewards
+                Ecom Solution
               </span>
             </h2>
 
             {/* Subtitle with better styling - reduced font sizes */}
             <p className="text-xl md:text-2xl lg:text-3xl text-gray-600 max-w-5xl mx-auto leading-relaxed font-light">
-              Shop from <span className="font-bold text-gray-800">premium brands</span> and earn 
-              <span className="font-bold bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent"> instant cashback</span>.
+              Comprehensive <span className="font-bold text-gray-800">B2B ecommerce solutions</span> for your business growth.
               <br />
-              <span className="font-semibold">Buy Vouchers/giftcards & get reward on every purchase.</span>
+              <span className="font-semibold">Complete platform with cashback, rewards, and white-label solutions.</span>
             </p>
           </div>
 
-          {/* Trust indicators - added clean bottom padding */}
+          {/* Trust indicators - updated for B2B focus */}
           <div className="flex items-center justify-center space-x-12 text-gray-600 pb-16">
             <div className="flex items-center space-x-3">
               <Shield className="w-7 h-7 text-blue-500" />
@@ -53,7 +52,7 @@ const Hero = () => {
             <div className="w-px h-8 bg-gray-300"></div>
             <div className="flex items-center space-x-3">
               <Award className="w-7 h-7 text-green-500" />
-              <span className="font-semibold text-lg">40% Max Cashback</span>
+              <span className="font-semibold text-lg">Complete Solutions</span>
             </div>
             <div className="w-px h-8 bg-gray-300"></div>
             <div className="flex items-center space-x-3">

@@ -19,9 +19,9 @@ const Footer = () => {
           </div>
           
           <p className="text-gray-300 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">
-            The smart way to shop online. 
+            Your trusted B2B partner for complete ecommerce solutions.
             <br />
-            <span className="text-white font-medium">Buy Vouchers/giftcards & get reward on every purchase.</span>
+            <span className="text-white font-medium">Empowering businesses with innovative technology solutions.</span>
           </p>
 
           {/* Social proof or additional info */}
@@ -33,8 +33,8 @@ const Footer = () => {
               </div>
               <div className="w-px h-6 bg-gray-600"></div>
               <div className="text-center">
-                <div className="text-xl font-bold text-white">40%</div>
-                <div className="text-sm">Cashback</div>
+                <div className="text-xl font-bold text-white">Complete</div>
+                <div className="text-sm">Solutions</div>
               </div>
               <div className="w-px h-6 bg-gray-600"></div>
               <div className="text-center flex flex-col items-center">
@@ -54,7 +54,7 @@ const Footer = () => {
             <div className="flex items-center justify-center space-x-2 mb-3">
               <span className="text-gray-400">Made with</span>
               <Heart className="w-4 h-4 text-red-500 animate-pulse" />
-              <span className="text-gray-400">for smart shoppers</span>
+              <span className="text-gray-400">for business growth</span>
             </div>
             <p className="text-gray-500">
               © 2024 Migiz. All rights reserved.
